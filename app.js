@@ -1,9 +1,13 @@
 const express = require('express');
 const request = require('request-promise');
 const dotenv = require('dotenv');
+const path = require('path');
+
 require('dotenv').config();
 
 const app = express();
+
+app.set('view engine', 'ejs');
 
 dotenv.config({path:'./config/.env'}) 
 
@@ -17,8 +21,8 @@ const baseUrl = `http://api.scraperapi.com?api_key=${apiKey}&autoparse=true`;
 app.use(express.json());
 
 app.get('/', (req,res) => {
-    res.send(`<h1>Web Scraping Welcomes you..!</h1><h2>You can scrap amazon Products, Reviews and search data with this app..!</h2>`)
-});
+    res.render('pages/index');
+  });
 
 //Get Product details 
 app.get('/products/:productId', async (req,res) => {
