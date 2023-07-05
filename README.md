@@ -10,7 +10,7 @@ Make sure , you have installed json formator to get parsed data with your respec
 eg.
 Web link : link:https://www.amazon.com/Apple-MacBook-16-inch-10%E2%80%91core-16%E2%80%91core/dp/B09JQML3NL/ref=sr_1_2?crid=2OZB3PKKLKX0P&keywords=macbook+pro&qid=1658000213&sprefix=macbook+pr%2Caps%2C444&sr=8-2
 
-From app link, https://webscrapingapiapp.herokuapp.com/products/B09JQML3NL
+From app link, https://webscrapingapiapp.herokuapp.com/products/B09JQML3NL](https://webscrap-2oeq.onrender.com/products/B09JQML3NL
 
 2.For Product reviewa data:
 eg.
